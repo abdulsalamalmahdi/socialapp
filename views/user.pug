@@ -1,0 +1,14 @@
+extends base.pug
+block content 
+h1 #{tableTitle}
+table
+     tr
+     th  Id 
+    
+       
+     th name
+
+     for user in userList 
+        tr
+          td = user.User_id
+          td = user.name   
