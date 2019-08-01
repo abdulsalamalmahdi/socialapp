@@ -1,14 +1,14 @@
 extends base.pug
-block content 
-h1 #{tableTitle}
-table
-     tr
-     th  Id 
-    
-       
-     th name
 
-     for user in userList 
-        tr
-          td = user.User_id
-          td = user.name   
+
+block content 
+  
+  
+    h1 #{tableTitle}
+      
+      for user in userList 
+          ul
+             li= user.user_id
+             li 
+               img a(href="../public/profileimg")
+             li  = user.user_name   

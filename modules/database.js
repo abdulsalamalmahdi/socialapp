@@ -5,7 +5,7 @@ const util = require('util')
 const connection = mysql.createConnection({
 
     host : 'localhost',
-    user : 'abdu',
+    user : 'root',
     password : '123456',
     port : '3306',
     database: 'socialapp'

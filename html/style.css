@@ -1,0 +1,13 @@
+ul { 
+    font-size: .5rem;
+    list-style-type: none;
+}
+
+li {
+    font-size: .5rem;
+}
+
+img {
+    width: 25%;
+    border: solid black 1%;
+}
